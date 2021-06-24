@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Emgu.CV" Version="4.5.1.4349" />
+		<PackageReference Include="Emgu.CV.runtime.ubuntu.20.04-x64" Version="4.5.1.4349" />
+		<PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.1.4349" />
+		<PackageReference Include="EmguFFmpeg.EmguCV" Version="1.0.15" />
+		<PackageReference Include="OpenH264.NET" Version="1.0.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Contents\**">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="ffmpeg.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+</Project>

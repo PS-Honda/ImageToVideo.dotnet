@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageToVideo.dotnet", "ImageToVideo.dotnet\ImageToVideo.dotnet.csproj", "{23A7F2B9-E39B-49EE-A588-1AD669041F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23A7F2B9-E39B-49EE-A588-1AD669041F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A7F2B9-E39B-49EE-A588-1AD669041F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A7F2B9-E39B-49EE-A588-1AD669041F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A7F2B9-E39B-49EE-A588-1AD669041F74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F97F2F8B-A867-4F02-B604-2FADAFD996F6}
+	EndGlobalSection
+EndGlobal
